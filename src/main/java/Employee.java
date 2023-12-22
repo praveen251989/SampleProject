@@ -7,6 +7,6 @@ public class Employee {
     public static void main(String[] args) {
         Employee e  = new Employee();
         int val = e.sum(3,4);
-        System.out.println("This is a sample project");
+        System.out.println("This is a sample project" + val);
     }
 }
